@@ -11,6 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var textLines = [
         {string: "Hey there! My Name is Patrick :D", speed: speeds.normal},
+        {string: "My Website is still under construction ", speed: speeds.normal},
+        {string: "so not everything works T-T", speed: speeds.normal},
         {string: "I'm an illustrator and animator based in Munich!", speed: speeds.normal},
         {string: "Feel free to browse my portfolio...", speed: speeds.normal},
         {string: "...and don't hesitate to reach out ♥ " , speed: speeds.normal},

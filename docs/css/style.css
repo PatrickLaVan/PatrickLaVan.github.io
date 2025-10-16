@@ -644,7 +644,7 @@ input[type="text"], input[type="email"], textarea {
 
 
 .project-head {
-    height: 75vw;
+    height: 60vh;
     width: 94%;
     border: var(--main-color-accent) 1px solid;
     border-radius: 10px;
@@ -654,6 +654,7 @@ input[type="text"], input[type="email"], textarea {
     overflow: hidden;
     object-fit: cover;
 }
+
 .project-head > img {
     object-fit: cover;
     height: 100%;
@@ -728,7 +729,13 @@ input[type="text"], input[type="email"], textarea {
     width: 100%;
     height: fit-content;
     /* border: var(--main-color-accent) 1px solid; */
+}
 
+.content-container-2 {
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+    /* border: var(--main-color-accent) 1px solid; */
 }
 
 .content-wrap {
@@ -900,12 +907,15 @@ input[type="text"], input[type="email"], textarea {
 
 .contact-input, .contact-textarea {
     width: 100%;
-    padding: 10px;
+    padding: 5%;
     font-family: 'ibm_plex_mono';
     font-size: 1.2rem;
     font-weight: 200;    
     border-radius: 5px;    
+    color: var(--main-color-light);
 }
+
+
 
 .contact-input:focus, .contact-textarea:focus {
     outline: none !important;
@@ -934,11 +944,11 @@ input[type="text"], input[type="email"], textarea {
 
 }
 
-/* .form-text {
+.form-text {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-} */
+}
 
 .alert {
     display: none;
