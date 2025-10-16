@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html" class="placeholder">LA VAN</a>
+        </div>
+        <div class="menu-sm">
+            <nav id="nav">
+				<ul class="nav">					
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+                    <li>Imprint</li>
+				</ul>
+			</nav>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact-container">
+            <div class="contact-text">
+                <h1 class="Modak">Let's work together!</h1>
+                <p class="contact-hook">Got an idea? Let's bring it to life! Drop me a message, and let's create something amazing together.</p>
+            </div>
+
+            <div class="contact-section">
+                  
+                 
+                <form id="contact-form" class="contact-form">
+                    <label class="form-text"> 
+                        
+                        <input type="text" name="name" class="contact-input" placeholder="Your Name" required>
+                    </label>
+                    
+                    <label class="form-text"> 
+                        
+                        <input type="email" name="email" class="contact-input" placeholder="Your E-Mail" required>
+                    </label>
+                    
+                    <label class="form-text"> 
+                        
+                        <textarea name="message" rows="5" class="contact-textarea" placeholder="How can I help you?" required></textarea>
+                    </label>
+                    <div id="alert" class="alert"></div>  
+                    <button type="submit" class="form-btn">Send Message</button>
+                </form>
+                <div class="contact-img"><img src="img/PostVogel.png" alt="Portrait"></div>                
+            </div>           
+        </div>                
+    </div>
+
+    <div class="footer-section">
+        <div class="line"></div>
+        <div class="f-container">
+            <div class="f-container2">
+                <div class="copyright">© 2025 Patrick La Van. All rights reserved.</div>
+                <div class="policies">
+                    <div class="privacypolicy">Privacy Policy</div>
+                    <div class="imprint">Terms of Use</div>
+                    <div class="cookiepolicy">Cookie Policy</div>  
+                </div>              
+            </div>  
+            <div class="socialmedia"></div>                  
+        </div>
+    </div>
+
+    
+    <script src="js/script.js"></script>
+    <script src="js/menuopen.js"></script>
+</body>
+</html>
